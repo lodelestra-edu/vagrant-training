@@ -40,13 +40,13 @@ One vagrant, One apache, Two sites.
 
 @. Create a new project folder 'vagrant\_virtualhost'
 @. Use a provision script juste like before
-@. This time your will not use apache default site configuration. You will have to create two configuration files. One for each virtualhost
-Use licadmin-site1.conf and licadmin-site2.conf.
-Your sites will use domaine name licadmin-site1.com and licadmin-site2.com.
-Source code will be in sites/licadmin-site1 and sites/licadmin-site2 into the project folder (host)
+@. This time your will not use apache default site configuration.   
+You will have to create two configuration files. One for each virtualhost. Use licadm\_site1.conf and licadm\_site2.conf.   
+Your sites will use domaine name licadm\_site1.com and licadm\_site2.com.   
+Web site source code will be in `sites/licadm_site1` and `sites/licadm_site2` into the project folder (host).   
 Use different content in your index.html pages for each site.
 @. Check your two sites are accessible from your host browser
-@. Check your project is destroy prouf
+@. Check your project is `vagrant destroy` proof
 @. **Call the teacher to check with you.**
 
 ##D/ PHP and Mysql
@@ -60,6 +60,6 @@ Use different content in your index.html pages for each site.
 @. **Call the teacher to check with you.**
 
 ##E/ Package
-**Package your A,B,C and D projects folder in a tar.gz archive and mail it to edu@delestra.com ^^**
+**Package your B and C projects folder in a tar.gz archive and mail it to edu@delestra.com ^^**
 
 
