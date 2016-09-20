@@ -17,7 +17,6 @@ geometry: margin=2cm
 @. Take a look at your apache default site configuration
 @. Check your apache server is running (maybe try with a command for listing process)
 @. Use the host machine browser to look at the apache default website.
-@. **Call the teacher to check with you.**
 
 
 ##B/ Vagrant provisionning
@@ -53,8 +52,6 @@ Use different content in your index.html pages for each site.
 @. Create a new project folder 'vagrant\_amp'
 @. Edit your provision script to install php5
 @. Check php is enable and working by using an index.php page
-
-###Bonus
 @. Install a mysql database. Create tables you need and populate your DB when provisioning the VM.
 @. For this... use your imagination
 @. **Call the teacher to check with you.**
